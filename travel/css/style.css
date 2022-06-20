@@ -12,6 +12,7 @@ body {
 }
 
 .header {
+  margin: 0;
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
   background-image: url('../assets/img/garrett-parker-DlkF4-dbCOU-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  height: 800px;
+  height: 765px;
 }
 
 .header-container-top {
@@ -158,4 +159,52 @@ font-size: 40px;
 line-height: 53px;
 text-transform: uppercase;
 color: #F2785C;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.steps-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 47px;
+}
+
+.steps-gallery {
+  display: flex;
+  justify-content: space-between;
+  width: 1177px;
+}
+
+.steps-card {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+.steps-card:nth-child(1) {
+  margin-right: 71px;
+}
+
+.steps-icon-box {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  margin: auto; 
+  background: #F2785C;
+  border-radius: 16px;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+
+.steps-icon-box img {
+  align-self: center;
 }
