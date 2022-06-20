@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #ccc;
+}
+
+.header {
+}
+
+.container {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.header-container{
+  background-image: url('../assets/img/garrett-parker-DlkF4-dbCOU-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+}
+
+.header-container-top {
+  font-family: 'Red Hat Text';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  height: 90px;
+  background-color: rgb(242, 120, 92, .7);
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.header-container-logo {
+  margin: 25px 0 0 120px;
+  width: 334px;
+}
+
+.header-logo-title {
+  margin-left: 2px;
+  font-family: 'Magra', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header-nav {
+  margin-top: 19px;
+}
+
+.header-nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.header-nav-item {
+  padding-right: 42.5px;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-login-button {
+  font-family: 'Red Hat Text';
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 31px 10px 30px;
+  margin: 25px 0 24px 154px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0D606F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  color: white;
+  text-decoration: none;
+}
+
+.preview-section {
+  width: 892px;
+  margin-left: 120px;
+}
+
+.preview-title {
+  margin: 32px 0 32px;
+  font-family: 'Aleo';
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: #FFFFFF;
+}
+
+.preview-subtitle {
+  font-family: 'Aleo';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.preview-form {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  width: 892px;
+  height: 95px;
+  margin-top: 46px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  border: none;
+}
+
+.preview-form-input,
+.preview-form-input::placeholder {
+  width: 560px;
+  font-family: 'Aleo';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F2785C;
+  background: none;
+  border: 0px;
+  outline: none;
+}
+
+.preview-form-button {
+  width: 228px;
+  height: 59px;
+  margin-left: 46px;
+  font-family: 'Red Hat Text';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 59px;
+  color: #FFFFFF;
+  background: #0D606F;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  border: 0px;
+}
+
+.section-title {
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+text-transform: uppercase;
+color: #F2785C;
+}
