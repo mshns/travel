@@ -12,13 +12,13 @@
 		<title>Travel</title>
 	</head>
 	<body>
-		<header class="header">
-			<div class="container header-container">
-				<div class="container header-container-top">
+		<div class="container wrapper">
+			<header class="header">
+				<div class="container header-container">
 					<div class="header-container-logo">
 						<a href="/" title="Travel Portal"><img src="assets/svg/logo.svg" alt="Travel Portal Logo"></a>
 						<a class="header-logo-title" href="/" title="Travel Portal">Travel Portal</a>
-				  </div>
+					</div>
 					<nav class="header-nav">
 						<ul class="header-nav-list">
 							<li class="header-nav-item">
@@ -28,57 +28,92 @@
 								<a href="#preview" title="Plan Your Trip" class="header-nav-link">Plan Your Trip</a>
 							</li>
 							<li class="header-nav-item">
-								<a href="" title="Destinations" class="header-nav-link">Destinations</a>
+								<a href="#destinations" title="Destinations" class="header-nav-link">Destinations</a>
 							</li>
 							<li class="header-nav-item">
-								<a href="" title="Travel Stories" class="header-nav-link">Travel Stories</a>
+								<a href="#stories" title="Travel Stories" class="header-nav-link">Travel Stories</a>
 							</li>
 						</ul>
 					</nav>
 					<button type="submit" class="header-login-button">Login</button>
-			  </div>
-				<div class="container header-container-bottom">
-					<section class="section preview-section" id="preview">
+				</div>
+			</header>
+			<main class="main">
+				<div class="container main-container">
+					<section class="preview-section" id="preview">
 						<h1 class="preview-title">Explore the beauty of the World</h1>
 						<h3 class="preview-subtitle">Receive personalized recommendations for countries, hotels, activities and more</h3>
 						<form class="preview-form">
-						  <input class="preview-form-input" type="text" placeholder="What would you like to do?">
-						  <button class="preview-form-button" type="submit">Start Planning</button>
+							<input class="preview-form-input" type="text" placeholder="What would you like to do?">
+							<button class="preview-form-button" type="submit">Start Planning</button>
 						</form>
 					</section>
+					<section class="section steps-section" id="steps">
+						<h2 class="section-title">3 steps to the perfect trip</h2>
+						<div class="steps-gallery">
+							<div class="steps-card">
+								<div class="steps-icon-box">
+									<img src="assets/svg/bicycle.svg" alt="Bicycle">
+								</div>
+								<p>Tell us what you want to do</p>
+							</div>
+							<div class="steps-card">
+								<div class="steps-icon-box">
+									<img src="assets/svg/calendar.svg" alt="Сalendar">
+								</div>
+								<p>Share us preferable dates</p>
+							</div>
+							<div class="steps-card">
+								<div class="steps-icon-box">
+									<img src="assets/svg/airplane.svg" alt="Airplane">
+								</div>
+								<p>We will give you recommendations</p>
+							</div>
+						</div>
+					</section>
+					<section class="section destinations-section" id="destinations">
+						<h2 class="section-title">Popular destinations</h2>
+						<div class="destinations-slider">
+							<div class="destinations-slide">
+								<a href="" title="Tasmania">
+									<img src="assets/img/rectangle23.jpg" alt="Tasmania">
+								</a>
+							</div>
+							<div class="destinations-slide">
+								<a href="" title="Japan">
+									<img src="assets/img/rectangle24.jpg" alt="Japan">
+									<h4 class="slider-subtitle">Japan</h4>
+								</a>
+							</div>
+							<div class="destinations-slide">
+								<a href="" title="USA">
+									<img src="assets/img/rectangle25.jpg" alt="United States">
+									<h4 class="slider-subtitle">USA</h4>
+								</a>
+							</div>
+						</div>
+						<div class="destinations-pagination">
+							<div class="destinations-pagination-button"></div>
+							<div class="destinations-pagination-button"></div>
+							<div class="destinations-pagination-button"></div>
+						</div>
+						<button class="destinations-button" type="button">
+							<img class="destinations-button-icon" src="assets/svg/arrow-right.svg">Find More
+						</button>
+					</section>
+					<section class="section stories-section" id="stories">
+						<h2 class="section-title">Travel stories</h2>
+						<div class="stories-box">
+							
+						</div>
+
+					</section>
 				</div>
-			</div>
-		</header>
-		<main class="main">
-			<div class="container main-container">
-				<section class="section steps-section" id="steps">
-					<h2 class="section-title">3 steps to the perfect trip</h2>
-					<div class="steps-gallery">
-						<div class="steps-card">
-							<div class="steps-icon-box">
-								<img src="assets/svg/bicycle.svg" alt="Bicycle">
-							</div>
-							<p>Tell us what you want to do</p>
-						</div>
-						<div class="steps-card">
-							<div class="steps-icon-box">
-								<img src="assets/svg/calendar.svg" alt="Сalendar">
-							</div>
-							<p>Share us preferable dates</p>
-						</div>
-						<div class="steps-card">
-							<div class="steps-icon-box">
-								<img src="assets/svg/airplane.svg" alt="Airplane">
-							</div>
-							<p>We will give you recommendations</p>
-						</div>
-					</div>
-				</section>
-			</div>
 
-		</main>
-		<footer class="footer">
+			</main>
+			<footer class="footer">
 
-		</footer>
+			</footer>
+		</div>
 	</body>
 </html>
