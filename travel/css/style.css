@@ -21,11 +21,10 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  background-image: url('../assets/img/garrett-parker.jpg');
-  background-repeat: no-repeat;
-  background-position: top;
+  background-image: url('../assets/img/garrett-parker.jpg'), url('../assets/img/rectangle33.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
   background-color: #FFF;
-
 }
 
 .section {
@@ -283,4 +282,83 @@ body {
 
 .stories-section {
   margin-top: 47px;
+}
+
+.stories-box {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0 120px;
+  padding-top: 45px;
+  padding-bottom: 41px;
+}
+
+.stories-lead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 27.5px;
+}
+
+.stories-lead-img {
+  width: 400px;
+  height: 250px;
+  filter: drop-shadow(0px 4px 4px #0D606F);
+  border-radius: 16px;
+  margin-right: 40px;
+}
+
+.stories-lead-title {
+  margin: auto;
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #0D606F;
+}
+
+.stories-lead-description {
+  width: 760px;
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+.stories-lead-description a {
+  font-weight: 700;
+  color: #0D606F;
+}
+
+.stories-lead-text {
+  margin-top: 22px;
+}
+
+.stories-button {
+  margin: auto;
+  margin-top: 36px;
+  padding: 0 32px;
+}
+
+.footer-container {
+  height: 61px;
+  font-family: 'Red Hat Text';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.socialmedia-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 100px;
+}
+
+.socialmedia-item {
+  list-style: none;
+  display: inline;
+  margin-right: 21px;
 }
