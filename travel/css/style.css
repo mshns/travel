@@ -67,12 +67,22 @@ body {
 }
 
 .header-nav-item {
-  padding-right: 42.5px;
+  margin-right: 42.5px;
+  transition: .6s;
+}
+
+.header-nav-item:hover {
+  background-color: #0d606f;
 }
 
 .header-nav-link {
   text-decoration: none;
   color: #FFF;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #f2785c;
 }
 
 .header-login-button {
@@ -88,6 +98,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
   color: #FFF;
   text-decoration: none;
+  transition: .5s;
 }
 
 .main-container {
@@ -157,6 +168,7 @@ body {
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
   border: 0;
+  transition: .5s;
 }
 
 .steps-section {
@@ -171,7 +183,6 @@ body {
   text-transform: uppercase;
   color: #F2785C;
 }
-
 
 .steps-gallery {
   display: flex;
@@ -202,6 +213,11 @@ body {
   border-radius: 16px;
   margin-top: 7px;
   margin-bottom: 30px;
+  transition: .2s;
+}
+
+.steps-icon-box:hover {
+  border-radius: 50%;
 }
 
 .steps-icon-box img {
@@ -255,7 +271,13 @@ body {
   margin: 0 5px;
   border-radius: 50%;
   background: rgba(242, 120, 92, 0.5);
+  transition: .5s;
 }
+
+.destinations-pagination-button:hover {
+  border-radius: 10%;
+}
+
 
 .destinations-pagination-button:nth-child(2) {
   background: rgba(242, 120, 92);
@@ -278,6 +300,7 @@ body {
   background: #0D606F;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
+  transition: .5s;
 }
 
 .stories-section {
@@ -287,7 +310,7 @@ body {
 .stories-box {
   background: rgba(255, 255, 255, 0.7);
   padding: 0 120px;
-  padding-top: 45px;
+  padding-top: 50px;
   padding-bottom: 41px;
 }
 
@@ -338,7 +361,8 @@ body {
 .stories-button {
   margin: auto;
   margin-top: 36px;
-  padding: 0 32px;
+  padding: 0 38px 0 32px;
+  transition: .5s;
 }
 
 .footer-container {
@@ -348,6 +372,10 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
+}
+
+.footer-copyright {
+  margin-top: 12px;
 }
 
 .socialmedia-list {
