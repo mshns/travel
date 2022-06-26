@@ -45,6 +45,11 @@ body {
 
 .header-container-logo {
   margin: 0 0 1px 120px;
+  transition: .6s;
+}
+
+.header-container-logo:hover {
+  transform: scale(1.1);
 }
 
 .header-logo-title {
@@ -72,7 +77,8 @@ body {
 }
 
 .header-nav-item:hover {
-  background-color: #0d606f;
+  color: #0D606F;
+  transform: scale(1.2);
 }
 
 .header-nav-link {
@@ -83,6 +89,7 @@ body {
 .button:hover {
   cursor: pointer;
   color: #f2785c;
+  transform: scale(1.05);
 }
 
 .header-login-button {
@@ -213,11 +220,12 @@ body {
   border-radius: 16px;
   margin-top: 7px;
   margin-bottom: 30px;
-  transition: .2s;
+  transition: .25s;
 }
 
 .steps-icon-box:hover {
   border-radius: 50%;
+  transform: scale(1.4);
 }
 
 .steps-icon-box img {
@@ -277,7 +285,6 @@ body {
 .destinations-pagination-button:hover {
   border-radius: 10%;
 }
-
 
 .destinations-pagination-button:nth-child(2) {
   background: rgba(242, 120, 92);
@@ -389,4 +396,12 @@ body {
   list-style: none;
   display: inline;
   margin-right: 21px;
+}
+
+.socialmedia-icon {
+  transition: .5s;
+}
+
+.socialmedia-icon:hover {
+  transform: scale(1.15);
 }
