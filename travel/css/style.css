@@ -16,7 +16,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 1440px;
 }
 
 .wrapper {
@@ -24,6 +24,7 @@ body {
   background-image: url('../assets/img/garrett-parker.jpg'), url('../assets/img/rectangle33.jpg');
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
+  background-size: 100%;
   background-color: #FFF;
 }
 
@@ -93,7 +94,7 @@ body {
 }
 
 .header-login-button {
-  width: 10%;
+  width: 103px;
   height: 41px;
   margin-right: 120px;
   font-family: 'Red Hat Text';
@@ -114,7 +115,7 @@ body {
 }
 
 .preview-section {
-  width: 60%;
+  width: 892px;
   height: 675px;
   margin-right: 307px;
 }
@@ -141,7 +142,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 39px;
-  width: 60%;
+  width: 892px;
   height: 95px;
   margin-top: 46px;
   background: rgba(255, 255, 255, 0.7);
@@ -151,7 +152,7 @@ body {
 
 .preview-form-input,
 .preview-form-input::placeholder {
-  width: 40%;
+  width: 560px;
   font-family: 'Aleo';
   font-style: italic;
   font-weight: 400;
@@ -163,7 +164,7 @@ body {
 }
 
 .preview-form-button {
-  width: 20%;
+  width: 228px;
   height: 59px;
   margin-left: 47px;
   font-family: 'Red Hat Text';
@@ -194,7 +195,7 @@ body {
 .steps-gallery {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 1177px;
 }
 
 .steps-card {
