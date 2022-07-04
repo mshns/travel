@@ -1,0 +1,193 @@
+@media (max-width: 1439px) {
+  .container {
+    width: 100vw;
+  }
+  .header-container {
+    font-size: 1.11vw;
+    line-height: 1.46vw;
+    height: 6.25vw;
+  }
+  .header-container-logo {
+    margin: 0 0 .07vw 8.33vw;
+  }
+  .header-container-logo img {
+    width: 2.08vw;
+    height: 2.08vw;
+  }
+  .header-logo-title {
+    margin-left: .21vw;
+    font-size: 2.22vw;
+    line-height: 2.71vw;
+  }
+  .header-nav {
+    margin-right: 1.94vw;
+  }
+  .header-nav-item {
+    margin-right: 2.95vw;
+  }
+  .header-login-button {
+    width: 7.15vw;
+    height: 2.84vw;
+    margin-right: 8.33vw;
+    font-size: 1.11vw;
+    border-radius: .69vw;
+  }
+  .preview-section {
+    width: 61.94vw;
+    height: 46.87vw;
+    margin-right: 21.32vw;
+  }
+  .preview-title {
+    margin: 2.22vw 0 2.22vw;
+    font-size: 5.55vw;
+    line-height: 6.66vw;
+  }
+  .preview-subtitle {
+    font-size: 1.38vw;
+    line-height: 1.66vw;
+  }
+  .preview-form {
+    padding-left: 2.7vw;
+    width: 61.9vw;
+    height: 6.59vw;
+    margin-top: 3.19vw;
+    border-radius: 1.11vw;
+  }
+  .preview-form-input,
+  .preview-form-input::placeholder {
+    width: 38.88vw;
+    font-size: 1.66vw;
+    line-height: 2.01vw;
+  }
+  .preview-form-button {
+    width: 15.83vw;
+    height: 4.09vw;
+    margin-left: 3.26vw;
+    font-size: 1.66vw;
+    line-height: 2.22vw;
+    border-radius: .69vw;
+  }
+  .steps-section {
+    margin-top: 3.26vw;
+  }
+  .section-title {
+    font-size: 2.77vw;
+    line-height: 3.68vw;
+  }
+  .steps-gallery {
+    width: 81.73vw;
+  }
+  .steps-card {
+    font-size: 1.39vw;
+    line-height: 1.66vw;
+  }
+  .steps-card:nth-child(1) {
+    margin-right: 4.93vw;
+  }
+  .steps-icon-box {
+    height: 6.94vw;
+    width: 6.94vw;
+    border-radius: 1.11vw;
+    margin-top: 0.48vw;
+    margin-bottom: 2.08vw;
+  }
+  .steps-icon-box img {
+    width: 3.47vw;
+    height: 3.47vw;
+  }
+  .destinations-section {
+    margin-top: 2.98vw;  
+  }
+  .destinations-slider {
+    width: 175vw;
+    margin-top: .9vw;
+  }
+  .destinations-slide {
+    width: 55.55vw;
+    height: 55.55vw;
+    border-radius: 1.11vw;
+  }
+  .destinations-slide-photo {
+    width: 56vw;
+  }
+  .slider-subtitle {
+    font-size: 2.22vw;
+    line-height: 2.91vw;
+    margin-top: -5.97vw;
+    margin-left: 1.07vw;
+  }
+  .destinations-pagination {
+    width: 175vw;
+    margin-top: 1.66vw;
+    height: 1.38vw;
+  }
+  .destinations-pagination-button {
+    height: 1.38vw;
+    width: 1.38vw;
+    margin: 0 .34vw;
+  }
+  .destinations-button {
+    font-size: 1.66vw;
+    line-height: 2.22vw;
+    width: 15.83vw;
+    height: 4.09vw;
+    margin-top: 2.77vw;
+    padding: 0 2.22vw;
+    border-radius: .69vw;
+  }
+  .destinations-button-icon {
+    width: 2.43vw;
+    height: auto;
+  }
+  .stories-section {
+    margin-top: 3.26vw;
+  }
+  .stories-box {
+    padding: 0 8.3vw;
+    padding-top: 3.47vw;
+    padding-bottom: 2.84vw;
+  }
+  .stories-lead {
+    margin-bottom: 1.9vw;
+  }
+  .stories-lead-img {
+    width: 27.77vw;
+    height: 17.36vw;
+    border-radius: 1.11vw;
+    margin-right: 2.78vw;
+  }
+  .stories-lead-title {
+    font-size: 2.43vw;
+    line-height: 2.91vw;
+  }
+  .stories-lead-description {
+    width: 52.77vw;
+    font-size: 1.38vw;
+    line-height: 1.66vw;
+  }
+  .stories-lead-text {
+    margin-top: 1.52vw;
+  }
+  .stories-button {
+    margin-top: 2.5vw;
+    padding: 0 2.63vw 0 2.22vw;
+  }
+  .footer-container {
+    height: 4.23vw;
+    font-size: 1.11vw;
+    line-height: 1.45vw;
+  }
+  .footer-copyright {
+    margin-top: .83vw;
+  }
+  .socialmedia-list {
+    margin: 1.04vw 6.94vw;
+  }
+  .socialmedia-item {
+    margin-right: 1.45vw;
+  }
+  .socialmedia-icon {
+    height: 2.08vw;
+    width: auto;
+  }
+}

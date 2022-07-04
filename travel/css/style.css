@@ -24,6 +24,7 @@ body {
   background-image: url('../assets/img/garrett-parker.jpg'), url('../assets/img/rectangle33.jpg');
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
+  background-size: 100%;
   background-color: #FFF;
 }
 
