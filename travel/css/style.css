@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
   background-image: url('../assets/img/garrett-parker.jpg'), url('../assets/img/rectangle33.jpg');
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
-  background-size: 100%;
+  background-size: 100%, 100%;
   background-color: #FFF;
 }
 
@@ -107,6 +108,10 @@ body {
   color: #FFF;
   text-decoration: none;
   transition: .5s;
+}
+
+.header-burgermenu-button {
+  display: none;
 }
 
 .main-container {

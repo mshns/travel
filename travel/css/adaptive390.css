@@ -1,0 +1,119 @@
+@media (max-width: 390px) {
+  .wrapper {
+    background-image: url('../assets/img/garrett-parker-mobile.jpg'), url('../assets/img/rectangle28.jpg');
+  }
+  .header-container {
+    align-items: flex-start;
+    height: 142px;
+    background-image: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 44%);
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .header-container-logo {
+    margin: 45px 16px;
+  }
+  .header-container-logo img {
+    width: 29px;
+    height: 30px;
+  }
+  .header-logo-title {
+    display: none;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-login-button {
+    display: none;
+  }
+  .header-burgermenu-button {
+    display: contents;
+  }
+  .header-burgermenu-button img {
+    margin: 43px 20px;
+  }
+  .preview-section {
+    width: 100vw;
+    height: 105px;
+    margin: 0;
+  }
+  .preview-title {
+    display: none;
+  }
+  .preview-subtitle {
+    display: none;
+  }
+  .preview-form {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 92.3vw;
+    height: 48px;
+    border-radius: 16px;
+  }
+  .preview-form-input,
+  .preview-form-input::placeholder {
+    width: 226px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+  .preview-form-button {
+    width: 92px;
+    height: 30px;
+    font-size: 11px;
+    line-height: 15px;
+    border-radius: 10px;
+    margin-right: 9px;
+  }
+  .section-title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .steps-gallery {
+    width: 92.5vw;
+  }
+
+  .steps-card {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0;
+  }
+  .steps-card:nth-child(1) {
+    width: 19vw;
+    margin-right: 0;
+  }
+  .steps-card:nth-child(2) {
+    width: 29vw;
+    margin-left: 13vw;
+    margin-right: 10.5vw;
+  }
+  .steps-card:nth-child(3) {
+    width: 21vw;
+    text-align: right;
+  }
+  .steps-icon-box {
+    height: 70px;
+    width: 70px;
+    border-radius: 16px;
+    margin-top: 9px;
+    margin-bottom: 19px;
+  }
+  .steps-icon-box img {
+    width: 35px;
+    height: auto;
+  }
+  .steps-icon-box1 {
+    margin-left: 0;
+  }
+    .steps-icon-box3 {
+    margin-left: 3vw;
+  }
+  .steps-icon-box3 img {
+    width: 40px;
+    height: auto;
+  }
+  .destinations-section {
+    margin-top: -2px;
+  }
+}
