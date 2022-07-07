@@ -391,7 +391,8 @@ body {
   margin-top: 12px;
 }
 
-.socialmedia-list {
+.socialmedia-list,
+.my-socialmedia-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
