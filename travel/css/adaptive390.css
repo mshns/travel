@@ -4,7 +4,7 @@
   }
   .header-container {
     align-items: flex-start;
-    height: 142px;
+    height: 36.41vw;
     background-image: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 44%);
     background-color: transparent;
     box-shadow: none;
@@ -33,7 +33,7 @@
   }
   .preview-section {
     width: 100vw;
-    height: 105px;
+    height: 26.92vw;
     margin: 0;
   }
   .preview-title {
@@ -47,21 +47,21 @@
     align-items: center;
     margin: 0 auto;
     width: 92.3vw;
-    height: 48px;
+    height: 12.31vw;
     border-radius: 16px;
   }
   .preview-form-input,
   .preview-form-input::placeholder {
-    width: 226px;
+    width: 57.95vw;
     font-size: 14px;
     line-height: 17px;
     margin-left: 4px;
     margin-top: 3px;
-}
+  }
   .preview-form-button {
-    width: 92px;
+    width: 23.59vw;
     height: 30px;
-    font-size: 11px;
+    font-size: 2.82vw;
     line-height: 15px;
     border-radius: 10px;
     margin-right: 9px;
@@ -73,7 +73,6 @@
   .steps-gallery {
     width: 92.5vw;
   }
-
   .steps-card {
     font-size: 10px;
     line-height: 12px;
@@ -106,7 +105,7 @@
   .steps-icon-box1 {
     margin-left: 0;
   }
-    .steps-icon-box3 {
+  .steps-icon-box3 {
     margin-left: 3vw;
   }
   .steps-icon-box3 img {
@@ -115,5 +114,143 @@
   }
   .destinations-section {
     margin-top: -2px;
+    width: 100vw;
+  }
+  .destinations-slider {
+    position: relative;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 9px;
+  }
+  .destinations-slide::before {
+    position: absolute;
+    content: '';
+    top: 92px;
+    left: 11px;
+    width: 15px;
+    height: 25px;
+    background-image: url("../assets/svg/slider-arrow-left.svg");
+    background-repeat: no-repeat;
+  }
+  .destinations-slide::after {
+    position: absolute;
+    content: '';
+    top: 92px;
+    right: 11px;
+    width: 15px;
+    height: 25px;
+    background-image: url("../assets/svg/slider-arrow-right.svg");
+    background-repeat: no-repeat;
+  }
+  .destinations-slide {
+    position: relative;
+    width: 92.3vw;
+    height: 53.85vw;
+    border-radius: 16px;
+  }
+  .destinations-slide:nth-child(2),
+  .destinations-slide:nth-child(3) {
+    display: none;
+  }
+  .slider-subtitle {
+    font-size: 5.13vw;
+    line-height: 26px;
+    margin-top: -52.82vw;
+    margin-left: 3.8vw;
+  }
+  .destinations-slide-photo {
+    width: 92.3vw;
+  }
+  .destinations-pagination {
+    position: absolute;
+    margin-top: 61.8vw;
+    width: 100vw;
+  }
+  .destinations-pagination-button {
+    height: 8px;
+    width: 8px;
+    margin: 0 3px;
+  }
+  .destinations-pagination-button:nth-child(1) {
+    background: rgba(242, 120, 92);
+  }
+  .destinations-pagination-button:nth-child(2) {
+    background: rgba(242, 120, 92, 0.5);
+  }
+  .destinations-button {
+    font-size: 11px;
+    line-height: 15px;
+    width: 92px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0 12px;
+  }
+  .destinations-button-icon {
+    width: 10px;
+  }
+  .stories-section {
+    margin-top: 8px;
+  }
+  .stories-box {
+    padding: 0 3.85vw;
+    padding-top: 2.56vw;
+    padding-bottom: 3.59vw;
+  }
+  .stories-lead {
+    margin-bottom: 2.82vw;
+  }
+  .stories-lead-img {
+    width: 39.74vw;
+    height: 33.33vw;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+    margin-right: 2.56vw;
+  }
+  .stories-lead-title {
+    font-size: 2.82vw;
+    line-height: 13px;
+    font-weight: 700;
+    margin-top: 1.03vw;
+  }
+  .stories-lead-description {
+    width: 50vw;
+    font-size: 2.3vw;
+    line-height: 2.82vw;
+  }
+  .stories-lead-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 2.7vw;
+  }
+  .readmore {
+    position: absolute;
+    margin-top: -2.3vw;
+  }
+  .stories-button {
+    margin-top: -6px;
+    padding: 0 14px;
+  }
+  .footer-container {
+    justify-content: center;
+    width: 100vw;
+    height: 65px;
+  }
+  .footer-copyright,
+  .my-socialmedia-list {
+    display: none;
+  }
+  .socialmedia-list {
+    padding: 0 0 2px 10px;
+  }
+  .socialmedia-item {
+    margin: 0 11px;
+  }
+  .socialmedia-icon {
+    width: 8.3vw;
+    height: auto;
   }
 }
