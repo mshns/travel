@@ -180,7 +180,8 @@
   .footer-copyright {
     margin-top: .83vw;
   }
-  .socialmedia-list {
+  .socialmedia-list,
+  .my-socialmedia-list {
     margin: 1.04vw 6.94vw;
   }
   .socialmedia-item {
