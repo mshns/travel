@@ -237,7 +237,7 @@
   .footer-container {
     justify-content: center;
     width: 100vw;
-    height: 65px;
+    height: 16.67vw;
   }
   .footer-copyright,
   .my-socialmedia-list {
@@ -253,4 +253,6 @@
     width: 8.3vw;
     height: auto;
   }
+
+  
 }
