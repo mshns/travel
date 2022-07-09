@@ -3,7 +3,7 @@
     width: 100vw;
   }
   .header-container {
-    font-size: 1.11vw;
+    font-size: 1.5vw;
     line-height: 1.46vw;
     height: 6.25vw;
   }
@@ -23,7 +23,7 @@
     margin-right: 1.94vw;
   }
   .header-nav-item {
-    margin-right: 2.95vw;
+    margin-right: 2vw;
   }
   .header-login-button {
     width: 7.15vw;
