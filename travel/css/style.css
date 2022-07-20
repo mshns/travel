@@ -251,6 +251,7 @@ body {
 }
 
 .destinations-slide {
+  position: relative;
   width: 800px;
   height: 800px;
   border-radius: 16px;
