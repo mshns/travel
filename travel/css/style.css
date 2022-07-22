@@ -543,7 +543,6 @@ body {
   border-radius: 10px;
   border: none;
   font-family: 'Red Hat Text';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -565,7 +564,6 @@ body {
 
 .login-separator {
   font-family: 'Aleo';
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -601,7 +599,6 @@ body {
 .login-label,
 .sign-label {
   font-family: 'Aleo';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -614,10 +611,16 @@ body {
   width: 560px;
   height: 54px;
   margin-bottom: 20px;
+  font-family: 'Red Hat Text';
+  font-size: 24px;
+  font-weight: 400;
+  color: #0D606F;
   background: #FFFFFF;
+  padding-left: 16px;
   box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
   border: none;
+  outline: none;
 }
 
 .login-signin-button,

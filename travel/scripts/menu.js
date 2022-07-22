@@ -13,6 +13,9 @@ signUp = document.querySelector(".sign-container");
 
 loginLink = document.querySelector(".login-link");
 
+signInButton = document.querySelector(".login-signin-button");
+logPass = document.querySelectorAll(".login-input-box");
+
 burgerButton.addEventListener('click',
   function() {
     burgerMenu.classList.add("active");
@@ -76,5 +79,11 @@ loginLink.addEventListener('click',
   function() {
     signUp.classList.remove("active");
     logIn.classList.add("active");
+  }
+);
+
+signInButton.addEventListener('click',
+  function() {
+    alert(`E-mail: ${logPass[0].value}\nPassword: ${logPass[1].value}`);
   }
 );
