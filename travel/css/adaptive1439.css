@@ -191,23 +191,18 @@
     height: 2.08vw;
     width: auto;
   }
-  .login-container,
-  .sign-container {
+  .login-container {
     width: 325px;
     height: 432px;
     border-radius: 16px;
     font-size: 14px;
   }
-  .sign-container {
-    height: 290px;
+  .login-container.signin {
+    height: 310px;
   }
-  .login-title,
-  .sign-title {
+  .login-title {
     font-size: 24px;
     margin-top: 24px;
-  }
-  .sign-title {
-    margin-bottom: 20px;
   }
   .login-signin {
     width: 280px;
@@ -235,20 +230,17 @@
     top: 172px;
     right: 25px;
   }  
-  .login-label,
-  .sign-label {
+  .login-label {
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 2px;
   }  
-  .login-input-box,
-  .sign-input-box {
+  .login-input-box {
     width: 280px;
     height: 32px;
     margin-bottom: 8px;
   }  
-  .login-signin-button,
-  .sign-signup-button {
+  .login-signin-button {
     padding: 5px 115px;
     width: 280px;
     height: 32px;
