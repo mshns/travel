@@ -7,7 +7,7 @@
 		<link rel="icon" href="assets/favicon.ico">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@700&family=Red+Hat+Text:wght@400;500&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/adaptive1439.css">
 		<link rel="stylesheet" href="css/adaptive390.css">
@@ -15,6 +15,37 @@
 	</head>
 	<body>
 		<div class="menu-shadow"></div>
+
+		<div class="container login-container">
+			<p class="login-title">Log in to your account</p>
+			<div class="signin-buttons">
+				<button class="button login-signin" type="submit">
+					<img class="login-signin-img"	src="assets/svg/facebook-logo.svg" alt="Sign In with Facebook">
+					<span>Sign In with Facebook</span>
+				</button>
+				<button class="button login-signin" type="submit">
+					<img class="login-signin-img"	src="assets/svg/google-logo.svg" alt="Sign In with Google">
+					<span>Sign In with Google</span>
+				</button>
+				<span class="login-separator">or</span>
+			</div>
+			<form class="login-input">
+				<label class="login-label">E-mail:</label>
+				<input class="login-input-box">
+				<label class="login-label">Password:</label>
+				<input class="login-input-box">
+				<button class="button login-signin-button" type="submit">Sign In</button>
+				<div class="login-forgot-password">
+					<a href="#">Forgot Your Password?</a>
+				</div>
+			</form>
+			<div class="separator"></div>
+			<p>
+				<span class="link-description">Don’t have an account? </span><a class="register" href="#">Register</a> 
+			</p>
+		</div>
+
+
 		<div class="container wrapper">
 			<header class="header">
 				<div class="container header-container">
@@ -44,22 +75,22 @@
 						<div class="bergermenu-close"></div>
 						<ul class="burgermenu-list">
 							<li class="burgermenu-item">
-								<a class="burgermenu-link" href="#steps" title="How It Works">How It Works</a>
+								<a class="burgermenu-link menu-link" href="#steps" title="How It Works">How It Works</a>
 							</li>
 							<li class="burgermenu-item">
-								<a class="burgermenu-link" href="#preview" title="Plan Your Trip">Plan Your Trip</a>
+								<a class="burgermenu-link menu-link" href="#preview" title="Plan Your Trip">Plan Your Trip</a>
 							</li>
 							<li class="burgermenu-item">
-								<a class="burgermenu-link" href="#destinations" title="Destinations">Destinations</a>
+								<a class="burgermenu-link menu-link" href="#destinations" title="Destinations">Destinations</a>
 							</li>
 							<li class="burgermenu-item">
-								<a class="burgermenu-link" href="#stories" title="Travel Stories">Travel Stories</a>
+								<a class="burgermenu-link menu-link" href="#stories" title="Travel Stories">Travel Stories</a>
 							</li>
 							<li class="burgermenu-item">
-								<a class="burgermenu-link" href="#" title="Account">Account</a>
+								<a class="burgermenu-link account-link" href="#" title="Account">Account</a>
 							</li>
 							<li class="burgermenu-item">
-								<a class="burgermenu-link" href="#socialmedia" title="Social Media">Social Media</a>
+								<a class="burgermenu-link menu-link" href="#socialmedia" title="Social Media">Social Media</a>
 							</li>
 						</ul>
 					</div>
