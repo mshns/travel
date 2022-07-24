@@ -15,7 +15,6 @@
 	</head>
 	<body>
 		<div class="menu-shadow"></div>
-
 		<div class="container login-container">
 			<p class="login-title">Log in to your account</p>
 			<div class="signin-buttons">
@@ -44,8 +43,6 @@
 				<span class="link-description">Don’t have an account? </span><a class="register" href="#">Register</a> 
 			</p>
 		</div>
-
-
 		<div class="container wrapper">
 			<header class="header">
 				<div class="container header-container">
@@ -130,34 +127,36 @@
 						</div>
 					</section>
 					<section class="section destinations-section" id="destinations">
+						<div class="slider-arrow-left"></div>
+						<div class="slider-arrow-right"></div>
 						<h2 class="section-title">Popular destinations</h2>
 						<div class="destinations-slider">
 							<div class="destinations-slide">
-								<a href="" title="Spain">
-									<picture>
-										<source media="(max-width: 390px)" srcset="assets/img/rectangle26.jpg">
-										<img class="destinations-slide-photo" src="assets/img/rectangle23.jpg" alt="Spain">
-								  </picture>
-									<h4 class="slider-subtitle">Spain</h4>
-								</a>
+								<picture>
+									<source media="(max-width: 390px)" srcset="assets/img/rectangle26.jpg">
+									<img class="destinations-slide-photo" src="assets/img/rectangle23.jpg" alt="Spain">
+								</picture>
+								<h4 class="slider-subtitle">Spain</h4>
 							</div>
 							<div class="destinations-slide">
-								<a href="" title="Japan">
+								<picture>
+									<source media="(max-width: 390px)" srcset="assets/img/rectangle34.jpg">
 									<img class="destinations-slide-photo" src="assets/img/rectangle24.jpg" alt="Japan">
-									<h4 class="slider-subtitle">Japan</h4>
-								</a>
+								</picture>
+  							<h4 class="slider-subtitle">Japan</h4>
 							</div>
 							<div class="destinations-slide">
-								<a href="" title="USA">
+   							<picture>
+									<source media="(max-width: 390px)" srcset="assets/img/rectangle35.jpg">
 									<img class="destinations-slide-photo" src="assets/img/rectangle25.jpg" alt="United States">
-									<h4 class="slider-subtitle">USA</h4>
-								</a>
+								</picture>
+								<h4 class="slider-subtitle">USA</h4>
 							</div>
 						</div>
 						<div class="destinations-pagination">
-							<div class="button destinations-pagination-button"></div>
-							<div class="button destinations-pagination-button"></div>
-							<div class="button destinations-pagination-button"></div>
+							<div class="destinations-pagination-button"></div>
+							<div class="destinations-pagination-button"></div>
+							<div class="destinations-pagination-button"></div>
 						</div>
 						<button class="button destinations-button" type="button">
 							<img class="destinations-button-icon" src="assets/svg/arrow-right.svg" alt="Arrow Right">
@@ -246,5 +245,6 @@
 		</div>
 		<script src="scripts/index.js"></script>
 		<script src="scripts/menu.js"></script>
+		<script src="scripts/slider.js"></script>
 	</body>
 </html>

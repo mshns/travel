@@ -57,10 +57,9 @@ accountLink.addEventListener('click',
   }
 );
 
-let popup = 'register';
 registerLink.addEventListener('click',
   function() {
-    if (popup === 'register') {      
+    if (registerLink.textContent === "Register") {      
       logIn.style.transition = 'none';
       logIn.classList.add("signin");
       document.querySelector('.login-title').textContent = "Create account";
@@ -71,11 +70,9 @@ registerLink.addEventListener('click',
       registerLink.textContent = "Log in";
       document.querySelector('.login-input').style.marginTop = "8px";
       document.querySelector('.separator').style.marginTop = "14px";
-      popup = 'logIn';
     } else {
       logIn.style.transition = 'none';
       logIn.classList.remove("signin");
-      document.querySelector('.login-container').style.height = "";
       document.querySelector('.login-title').textContent = "Log in to your account";
       document.querySelector('.signin-buttons').style.display = "flex";
       signInButton.textContent = "Sign In";
@@ -84,7 +81,6 @@ registerLink.addEventListener('click',
       registerLink.textContent = "Register";
       document.querySelector('.login-input').style.marginTop = "";
       document.querySelector('.separator').style.marginTop = "";
-      popup = 'register';
     }
   }
 );

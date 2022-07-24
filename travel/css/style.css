@@ -237,7 +237,6 @@ body {
   align-self: center;
 }
 
-
 .destinations-section {
   margin-top: 43px;  
 }
@@ -247,6 +246,17 @@ body {
   justify-content: space-between;
   width: 2520px;
   margin-top: 13px;
+  transition: ease-in-out .5s;
+}
+
+.destinations-slider.left {
+  transform: translateX(860px);
+}
+.destinations-slider.center {
+  transform: translateX(0);
+}
+.destinations-slider.right {
+  transform: translateX(-860px);
 }
 
 .destinations-slide {
@@ -255,6 +265,11 @@ body {
   height: 800px;
   border-radius: 16px;
   overflow: hidden;
+}
+
+.destinations-slide:nth-child(1),
+.destinations-slide:nth-child(3) {
+  cursor: pointer;
 }
 
 .slider-subtitle {
@@ -284,7 +299,8 @@ body {
   width: 20px;
   margin: 0 5px;
   border-radius: 50%;
-  background: rgba(242, 120, 92, 0.5);
+  background: #f2785c;
+  opacity: .5;
   transition: .5s;
 }
 
@@ -294,6 +310,7 @@ body {
 
 .destinations-pagination-button:nth-child(2) {
   background: rgba(242, 120, 92);
+  opacity: 1;
 }
 
 .destinations-button {
@@ -478,11 +495,11 @@ body {
 .login-container {
   position: fixed;
   top: 0;
-  bottom: 50vh;
+  bottom: 100vh;
   left: 0;
   right: 0;
   margin: auto;
-  z-index: -100;
+  z-index: -50;
   flex-direction: column;
   justify-content: start;
   width: 650px;
@@ -499,19 +516,13 @@ body {
   transition: .5s ease-in-out;
 }
 
-.login-container.signin {
-  height: 436px;
-}
-
-.signin-buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .login-container.active {
   bottom: 0;
   z-index: 100;
+}
+
+.login-container.signin {
+  height: 436px;
 }
 
 .login-container a {
@@ -526,6 +537,12 @@ body {
   font-size: 32px;
   color: #0D606F;
   margin-top: 36px;
+}
+
+.signin-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .login-signin {
@@ -570,22 +587,22 @@ body {
 
 .login-separator::before {
   content: "";
-  width: 260px;
-  height: 0px;
-  border: 1px solid rgba(13, 96, 111, .5);
   position: absolute;
   top: 266px;
   left: 45px;
+  width: 260px;
+  height: 0px;
+  border: 1px solid rgba(13, 96, 111, .5);
 }
 
 .login-separator::after {
   content: "";
-  width: 260px;
-  height: 0px;
-  border: 1px solid rgba(13, 96, 111, 0.5);
   position: absolute;
   top: 266px;
   right: 45px;
+  width: 260px;
+  height: 0px;
+  border: 1px solid rgba(13, 96, 111, .5);
 }
 
 .login-input {

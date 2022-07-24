@@ -102,6 +102,15 @@
     width: 175vw;
     margin-top: .9vw;
   }
+  .destinations-slider.left {
+    transform: translateX(59.72vw);
+  }
+  .destinations-slider.center {
+    transform: translateX(0);
+  }
+  .destinations-slider.right {
+    transform: translateX(-59.72vw);
+  }
   .destinations-slide {
     width: 55.55vw;
     height: 55.55vw;
@@ -238,6 +247,8 @@
   .login-input-box {
     width: 280px;
     height: 32px;
+    font-size: 14px;
+    padding-left: 10px;
     margin-bottom: 8px;
   }  
   .login-signin-button {
