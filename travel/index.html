@@ -18,11 +18,11 @@
 		<div class="container login-container">
 			<p class="login-title">Log in to your account</p>
 			<div class="signin-buttons">
-				<button class="button login-signin" type="submit">
+				<button class="button login-signin">
 					<img class="login-signin-img"	src="assets/svg/facebook-logo.svg" alt="Sign In with Facebook">
 					<span>Sign In with Facebook</span>
 				</button>
-				<button class="button login-signin" type="submit">
+				<button class="button login-signin">
 					<img class="login-signin-img"	src="assets/svg/google-logo.svg" alt="Sign In with Google">
 					<span>Sign In with Google</span>
 				</button>
@@ -30,10 +30,10 @@
 			</div>
 			<form class="login-input">
 				<label class="login-label">E-mail:</label>
-				<input class="login-input-box">
+				<input class="login-input-box" type="email" required>
 				<label class="login-label">Password:</label>
-				<input class="login-input-box">
-				<button class="button login-signin-button" type="submit">Sign In</button>
+				<input class="login-input-box" type="password" required>
+				<button class="button login-signin-button">Sign In</button>
 				<div class="login-forgot-password">
 					<a href="#">Forgot Your Password?</a>
 				</div>
