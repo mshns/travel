@@ -51,7 +51,7 @@ loginButton.addEventListener('click',
 );
 
 accountLink.addEventListener('click',
-  function() {    
+  function() {
     burgerMenu.classList.remove("active");
     logIn.classList.add("active");
   }
