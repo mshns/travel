@@ -1,3 +1,3 @@
-# mshns-JSFEPRESCHOOL2022Q2
-Private repository for @mshns
-My CV: https://mshns.github.io/rsschool-cv/
+# Travel Portal
+- Deploy: https://mshns.github.io/travel/
+- RS School Deploy: https://rolling-scopes-school.github.io/mshns-JSFEPRESCHOOL2022Q2/travel/
